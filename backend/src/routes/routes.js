@@ -1,15 +1,9 @@
 import { Router } from "express";
 
+import ProductController from "../controllers/ProductController.js";
+
 const router = Router();
 
-router.get("/", (req, res) => {
-  res.status(200).json({ message: "message" });
-});
-
-router.post("/", (req, res) => {
-  const { body } = req;
-  console.log(body);
-  res.status(200).json({ message: "create with success" });
-});
+router.get("/api/product/scraper", ProductController.get);
 
 export default router;
