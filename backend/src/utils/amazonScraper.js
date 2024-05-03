@@ -39,6 +39,12 @@ export const amazonScraper = async (keyword) => {
         const rating = product.querySelector(".a-icon-alt");
         const imageUrl = product.querySelector(".s-image");
 
+        const price = product.querySelector(".a-price .a-offscreen");
+
+        const link = product.querySelector(
+          ".a-link-normal.s-underline-text.s-underline-link-text.s-link-style.a-text-normal"
+        );
+
         if (name) {
           listProduct.push({
             name: name.textContent.trim(),
@@ -46,7 +52,9 @@ export const amazonScraper = async (keyword) => {
               ? numberOfReviews.textContent.trim()
               : 0,
             rating: rating ? rating.textContent.trim() : "Don't have",
-            imageUrl: imageUrl ? imageUrl.src : null,
+            imageUrl: imageUrl ? imageUrl.src : "",
+            price: price ? price.textContent.trim() : "",
+            link: link ? link.href : "https://www.amazon.com/",
           });
         } else {
           // console.log("Product name not found");
