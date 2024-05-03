@@ -49,7 +49,7 @@ export const amazonScraper = async (keyword) => {
             imageUrl: imageUrl ? imageUrl.src : null,
           });
         } else {
-          console.log("Product name not found");
+          // console.log("Product name not found");
         }
       } catch (error) {
         console.error("Error parsing product:", error);
