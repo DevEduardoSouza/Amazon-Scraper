@@ -29,6 +29,37 @@ cd amazon-scraper/backend
   npm run start
 ````
 
+### FrontEnd
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/DevEduardoSouza/Amazon-Scraper.git
+```
+
+2. **Navigate to the backend directory:**
+
+```bash
+cd amazon-scraper/frontend
+```
+
+3. **Install dependencies:**
+
+```bash
+  npm install
+````
+
+4. **Open the file and click on index.html**
+
+```bash
+  \amazon-scraper\frontend\index.html
+````
+
+## Now you can use
+
+
+![Imagem Completa](frontend/imgs/img-full.png)
+
 ------
 
 The Amazon Scraper API allows users to retrieve product information from Amazon based on a keyword.
