@@ -6,7 +6,7 @@ The Amazon Scraper API allows users to retrieve product information from Amazon 
 
 The base URL for the API is:
 
-```http://localhost:3000````
+``http://localhost:3000``
 
 
 ## Endpoints
