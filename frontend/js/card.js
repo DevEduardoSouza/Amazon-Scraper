@@ -2,8 +2,6 @@ export const createCard = (card) => {
   const containerCard = document.createElement("div");
   containerCard.classList.add("card");
 
-  card.price = `$${card.price}`;
-
   containerCard.innerHTML = `
   <div class="card-img">
                 <img
