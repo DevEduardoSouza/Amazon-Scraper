@@ -5,6 +5,8 @@
 }
 
 body {
+  background-color: #dfe4f5;
+  font-family: "Poppins", sans-serif;
 }
 
 ul,
@@ -18,4 +20,51 @@ a {
 
 button {
   border: none;
+}
+
+.active {
+  color: #5060ff;
+}
+
+.hide {
+  display: none;
+}
+/* Header */
+header {
+  background-color: #fff;
+  color: #000;
+
+  display: flex;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  padding: 2rem;
+  width: 300px;
+  height: 100vh;
+}
+
+header nav ul {
+  color: #00000095;
+  font-size: 1.1rem;
+  font-weight: 500;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+header nav ul li {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+header nav ul li > span {
+  font-size: 1.1rem;
+}
+
+header nav ul li:hover {
+  color: #5060ff;
 }
