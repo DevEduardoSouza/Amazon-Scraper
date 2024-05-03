@@ -5,7 +5,7 @@ import { configs } from "../config/configs.js";
 // function to get the html of the page
 const getPage = async (url) => {
   try {
-    const response = await axios.get(url, configs.headers);
+    const response = await axios.get(url, { headers: configs.headers });
     return response.data;
   } catch (error) {
     console.error("Error fetching page:", error);

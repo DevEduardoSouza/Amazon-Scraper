@@ -12,7 +12,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --watch ./src/serve.js"
+    "start:dev": "node --watch ./src/serve.js",
+    "start": "node ./src/serve.js"
   },
   "keywords": [],
   "author": "",
