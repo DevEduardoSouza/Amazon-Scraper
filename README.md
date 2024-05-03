@@ -31,25 +31,19 @@ cd amazon-scraper/backend
 
 ### FrontEnd
 
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/DevEduardoSouza/Amazon-Scraper.git
-```
-
-2. **Navigate to the backend directory:**
+1. **Navigate to the frontend directory:**
 
 ```bash
 cd amazon-scraper/frontend
 ```
 
-3. **Install dependencies:**
+2. **Install dependencies:**
 
 ```bash
   npm install
 ````
 
-4. **Open the file and click on index.html**
+3. **Open the file and click on index.html**
 
 ```bash
   \amazon-scraper\frontend\index.html
