@@ -54,7 +54,9 @@ export const amazonScraper = async (keyword) => {
             rating: rating ? rating.textContent.trim() : "Don't have",
             imageUrl: imageUrl ? imageUrl.src : "",
             price: price ? price.textContent.trim() : "On Amazon",
-            link: link ? link.href : "https://www.amazon.com/",
+            link: link
+              ? "https://www.amazon.com/" + link.href
+              : "https://www.amazon.com/",
           });
         } else {
           // console.log("Product name not found");
