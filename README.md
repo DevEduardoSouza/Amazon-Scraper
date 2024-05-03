@@ -31,25 +31,9 @@ cd amazon-scraper/backend
 
 ### FrontEnd
 
-1. **Navigate to the frontend directory:**
-
-```bash
-cd amazon-scraper/frontend
-```
-
-2. **Install dependencies:**
-
-```bash
-  npm install
-````
-
-3. **Open the file and click on index.html**
-
-```bash
-  \amazon-scraper\frontend\index.html
-````
-
-## Now you can use
+1. **Navigate to the frontend **
+   
+  https://amazon-scraper-test.netlify.app/
 
 
 ![Imagem Completa](frontend/imgs/img-full.png)
