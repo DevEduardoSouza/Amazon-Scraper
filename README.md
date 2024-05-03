@@ -1,5 +1,27 @@
 # Amazon Scraper API Documentation
 
+## How to Use Front-end e Back-end
+
+### Backend
+
+1° Step
+
+`git clone git clone https://github.com/DevEduardoSouza/Amazon-Scraper.git`
+
+2° Step
+
+`cd amazon-scraper/backend`
+
+3° Step
+
+`npm install`
+
+4° Step
+
+`npm run start`
+
+------
+
 The Amazon Scraper API allows users to retrieve product information from Amazon based on a keyword.
 
 ## Base URL
