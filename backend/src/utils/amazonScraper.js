@@ -53,7 +53,7 @@ export const amazonScraper = async (keyword) => {
               : 0,
             rating: rating ? rating.textContent.trim() : "Don't have",
             imageUrl: imageUrl ? imageUrl.src : "",
-            price: price ? price.textContent.trim() : "",
+            price: price ? price.textContent.trim() : "On Amazon",
             link: link ? link.href : "https://www.amazon.com/",
           });
         } else {
