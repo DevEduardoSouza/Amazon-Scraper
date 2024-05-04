@@ -38,6 +38,8 @@ cd amazon-scraper/backend
 
 ![Imagem Completa](frontend/imgs/img-full.png)
 
+![Imagem Completa](frontend/imgs/img-full-2.png)
+
 ------
 
 The Amazon Scraper API allows users to retrieve product information from Amazon based on a keyword.
